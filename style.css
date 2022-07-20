@@ -273,10 +273,12 @@ hr{
     .footer-nav-items{
         width: 25%;
         margin-top: 1rem;  
-    }
-    .footer-nav-items p{
         text-align: center;
+    }
+    .footer-nav-items a{
+        
         font-size: 14px;
+        margin-right: 0;
     }
 }
 @media only screen and (max-width: 568px){
@@ -339,7 +341,7 @@ hr{
         text-align: center;
         margin-right: 0;
     }
-    .footer-nav-items p{
+    .footer-nav-items a{
         margin-right: 0;
     }
 }
