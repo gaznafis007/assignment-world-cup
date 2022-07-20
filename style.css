@@ -14,7 +14,7 @@
     --md-heading2: 24px;
     --sm-heading2: 20px;
     --color-black: #333;
-    --color-fade-black: #666;
+    --color-fade-black: #aaa;
 }
 header{
     width: 90%;
@@ -161,7 +161,7 @@ footer{
 }
 hr{
     border: none;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid var(--color-fade-black);
     margin-top: 2rem;
 }
 .footer-nav-items p{
@@ -184,7 +184,7 @@ hr{
 }
 @media only screen and (min-width: 768px) and (max-width: 992px){
     header{
-        margin: 1rem 4rem;
+        margin: 1rem auto;
     }
     .header-text .heading{
         font-size: var(--md-heading1);
@@ -200,7 +200,7 @@ hr{
         margin-top: 0.5rem;
     }
     main{
-        margin: 1rem 4rem;
+        margin: 1rem auto;
     }
     .main-content{
         flex-direction: column;
@@ -319,3 +319,33 @@ hr{
         margin-right: 0;
     }
 }
+/* -----------------------------------------------
+------------INDEX2 ' S CSS STYLESHEET------------- */
+    .card-img-match{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .element{
+        width: 30%;
+    }
+    .element>img{
+        width: 100%;
+    }
+    .element{
+        text-align: center;
+    }
+    .card-text-match{
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+    .card-text-match h4{
+        font-weight: 700;
+        color: var(--color-black);
+        text-align: center;
+    }
+    .match-text{
+        text-align: center;
+        color: var(--color-black);
+    }
