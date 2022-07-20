@@ -318,9 +318,10 @@ hr{
         border-radius: 0;
     }
     .nav-items{
-        padding: 7px;
+        padding: 5px;
         border: 1px solid var(--color-fade-black);
-        margin-top: 0.5rem;
+        margin-top: 0.3rem;
+        font-size: 14px;
     }
     .cards{
         display: flex;
