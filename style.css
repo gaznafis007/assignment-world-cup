@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+:root{
+    --primary-bg: #192a56;
+    --btn-bg: #0097e6;
+    --lg-heading1: 36px;
+    --md-heading1: 28px;
+    --sm-heading1: 24px;
+}
